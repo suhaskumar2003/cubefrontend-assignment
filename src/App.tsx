@@ -33,7 +33,7 @@ const generateCustomers = (count: number): Customer[] => {
 const customers: Customer[] = generateCustomers(1000); // Generate 1000 employees
 
 const App: React.FC = () => {
-  const [selectedCustomerId, setSelectedCustomerId] = useState<number | null>(null);
+  const [selectedCustomerId, setSelectedCustomerId] = useState<number>(1);
 
   const selectedCustomer = selectedCustomerId ? customers.find((customer) => customer.id === selectedCustomerId) : null;
 

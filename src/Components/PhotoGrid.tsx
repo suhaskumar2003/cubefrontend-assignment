@@ -1,7 +1,7 @@
 // // PhotoGrid.tsx
 import React, { useState, useEffect } from 'react';
 
-const API_URL = `https://api.unsplash.com/photos/random?count=9&client_id=epemrpUAzybwcDqulz_-p0E1cBQEJBl9FGbfDONz1aQ`;
+const API_URL = `https://api.unsplash.com/photos/random?count=9&client_id=${process.env.REACT_APP_API_KEY}`;
 
 interface PhotoGridProps {}
 

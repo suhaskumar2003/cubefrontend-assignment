@@ -7,6 +7,8 @@
   
   .customer-list {
     width: 30%;
+    height: 100vh;
+    overflow-y: scroll;
   }
   
   .customer-card {
